@@ -20,7 +20,7 @@ highlight : monokai
 
 
 #スライド自動再生の設定
-autoslide : 6090
+autoslide : 300
 
 
 #スライドのループ設定
