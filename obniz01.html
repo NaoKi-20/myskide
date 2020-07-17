@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://obniz.io/js/jquery-3.2.1.min.js"></script>
-  <script src="https://unpkg.com/obniz@latest/obniz.js"></script>
+  <script src="https://unpkg.com/obniz@3.6.1/obniz.js"></script>
 </head>
 <body>
 
@@ -12,7 +12,7 @@
 <h1>LED</h1>
 
 <script>
-  var obniz = new Obniz("OBNIZ_ID_HERE");
+  var obniz = new Obniz("6706-7224");
   obniz.onconnect = async function () {
     var led = obniz.wired("LED", {anode:0, cathode:1});
     led.on();
